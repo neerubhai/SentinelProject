@@ -18,7 +18,7 @@ logger.addHandler(h)
 #specify output data path
 out_data_dir = os.path.join(os.getcwd(), r'sentinel_data')
 
-api = SentinelAPI('nrajasekar', 'Banana@8split', 'https://scihub.copernicus.eu/dhus')
+api = SentinelAPI('username', 'password', 'https://scihub.copernicus.eu/dhus')
 
 footprint = geojson_to_wkt(read_geojson(os.path.join(os.getcwd(), r'vector_data/ROI.geojson')))
 
