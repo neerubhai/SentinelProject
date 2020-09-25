@@ -1,0 +1,5 @@
+sentinelsat
+geopandas
+pandas
+gdal
+geojson
